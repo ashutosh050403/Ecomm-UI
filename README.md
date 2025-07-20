@@ -40,13 +40,21 @@ To run this project locally, you can simply open the `.html` files in your web b
 ## SNAPSHOTS
 <img width="1362" height="635" alt="image" src="https://github.com/user-attachments/assets/203e23ee-83b8-4d12-9253-f04a0b90a3c0" />
 
+---
+
 <img width="1365" height="641" alt="image" src="https://github.com/user-attachments/assets/b8b56ee8-a960-40e6-af4b-83f7e9036d31" />
+
+---
 
 <img width="1366" height="641" alt="image" src="https://github.com/user-attachments/assets/7f75b07a-3f60-4d71-9afe-48b2a356c305" />
 
+---
+
 <img width="1356" height="635" alt="image" src="https://github.com/user-attachments/assets/5474e2a8-e7f4-460b-9b9c-81964bf52117" />
+
+---
 
 <img width="1362" height="636" alt="image" src="https://github.com/user-attachments/assets/5fd58b01-8575-40c8-98b7-cd3b8210c31c" />
 
-
+---
 
