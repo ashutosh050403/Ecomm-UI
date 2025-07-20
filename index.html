@@ -55,18 +55,30 @@
       <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
     </div>
 
-    <div class="container mt-5">
-      <h2 class="section-title">🔥 Trending Products</h2>
-      <div id="trending-products" class="row"></div>
-      <h2 class="section-title mt-5">👗 Clothing Collection</h2>
-      <div id="clothing-products" class="row"></div>
-      <h2 class="section-title mt-5">💻 Electronics & Gadgets</h2>
-      <div id="electronics-products" class="row"></div>
+   <div class="container mt-5">
+    
+    <div class="text-center mb-4" id="category-filters">
+        <button class="btn btn-outline-primary active" onclick="loadProducts(0, null)">All Products</button>
+        <button class="btn btn-outline-primary" onclick="loadProducts(0, 'Trending')">🔥 Trending</button>
+        <button class="btn btn-outline-primary" onclick="loadProducts(0, 'Clothing')">👗 Clothing</button>
+        <button class="btn btn-outline-primary" onclick="loadProducts(0, 'Electronics')">💻 Electronics</button>
     </div>
+    
+    <div id="product-list" class="row">
+        </div>
+
+</div>
+
+<div class="container d-flex justify-content-center mt-4">
+    <nav>
+        <ul class="pagination" id="pagination-controls">
+            </ul>
+    </nav>
+</div>
 
     <footer class="footer mt-5">
         <div class="container"><div class="row"><div class="col-md-3"><h5>ONLINE STORE</h5><ul class="footer-list"><li><a href="#">Men Clothing</a></li><li><a href="#">Women Clothing</a></li><li><a href="#">Men Accessories</a></li><li><a href="#">Women Accessories</a></li></ul></div><div class="col-md-3"><h5>HELPFUL LINKS</h5><ul class="footer-list"><li><a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul></div><div class="col-md-3"><h5>BRAND PARTNERS</h5><ul class="footer-list"><li>Zara</li><li>Pantaloons</li><li>Levi's</li><li>UCB</li><li>+ Many More</li></ul></div><div class="col-md-3"><h5>ADDRESS</h5><ul class="footer-list"><li>Building 101</li><li>Central Avenue</li><li>LA - 902722</li><li>United States</li></ul></div></div></div>
-        <div class="row mt-4"><div class="col-12 text-center"><p class="copyright">© 2024 Shopify | Designed by <strong>Ashwani Upadhyay</strong></p></div></div>
+        <div class="row mt-4"><div class="col-12 text-center"><p class="copyright">© 2025 Shopify | Designed by <strong>Vision</strong></p></div></div>
     </footer>
 
     <script src="js/api.js"></script>

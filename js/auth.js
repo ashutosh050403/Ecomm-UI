@@ -45,13 +45,16 @@ function updateNav() {
         } else {
             // Customer links
             navContent = `
+                <form class="d-flex" onsubmit="handleSearch(event)">
+                    <input class="form-control me-2" type="search" id="search-input" placeholder="Search by name or category...">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="account.html">My Account</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cart.html">
+                    <a class="nav-link" href="cart.html" title="Cart">
                         <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-badge">0</span> </a>
+                        <span class="cart-badge">0</span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-danger ms-2" onclick="logout()">Logout</button>
